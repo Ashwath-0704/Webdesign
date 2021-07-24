@@ -1,0 +1,73 @@
+<html>
+    <link rel="stylesheet" href="project 3 survey form CSS.css">
+    <div class="main">
+      <h1 id="title"> Survey Form </h1>
+      <p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
+<div id="body">
+  <div form="main-content">
+    <div form="form-content">
+       <form id="survey-form"> 
+         <lable for="name" id="name-label">Name</lable><br><br>
+         <input id="name" type="text" name="name" required placeholder="Enter Your Name"  /><br><br>
+    
+         <lable for="email" id="email-label">Email</lable><br><br>
+         <input id="email" type="email" name="email" required placeholder="xyz@example.com"   /><br><br>
+    
+         <lable for="number" id="number-lable">Age</lable><br><br>
+         <input id="number" name="number" type="number" min= "1"  max= "100" required placeholder="18"  /><br><br>
+         
+         <lable for="dropdown" id="current role"> Which option best describes your current role?</lable><br><br>
+          <Select id="dropdown">
+              <option value="disabled seleted value" > Selecte Surrent Role</option>
+              <option value= "Student" >Student</option>
+              <option value= "Full Time Job">Full Time Job</option>
+              <option value= "Full Time Learner">Full Time Learner</option>
+              <option value= "Pefer Not to Say">Pefer Not to Say</option>
+              <option value= "Other">Other</option>
+         </select>
+            <p> Would you recommend freeCodeCamp to a friend? </p>
+         
+         <input type="radio" name="action" id="Definitely" value="Definitely" />
+         <lable for="Definitely"> Definitely</lable><br>
+         
+         <input type="radio" name="action" id="Maybe" value="Maybe" />
+         <lable for="Maybe"> Maybe</lable><br>
+         
+         <input type="radio" name="action" id="Not sure" value="Not sure" />
+         <lable for="Not sure"> Not sure</lable><br>
+         
+         <p>What is your favorite feature as Software Enginner? </p>
+         <input type="checkbox" name="Front-end Projects" id="Front-end Projects" value="Option"/>     
+         <lable for="Option">Front-end Projects</lable><br>
+         <input type="checkbox" name="Back-end Projects" id="Back-end Projects" value="Option"/>     
+         <lable for="Back-end Projects">Back-end Projects</lable><br>
+       
+        <input type="checkbox" name="Data Visualization" id="Data Visualization" value="Option"/>     
+         <lable for="Data Visualization">Data Visualization</lable><br>
+         <input type="checkbox" name="Challenges" id="Challenges" value="Option"/>     
+         <lable for="Challenges">Challenges</lable><br>
+         <input type="checkbox" name="Open Source Community" id="Open Source Community" value="Option"/>     
+         <lable for="Open Source Community">Open Source Community</lable><br>
+         <input type="checkbox" name="Gitter help rooms" id="Gitter help rooms" value="Option"/>     
+         <lable for="Gitter help rooms">Gitter help rooms</lable><br>
+         <input type="checkbox" name="Videos" id="Videos" value="Option"/>     
+         <lable for="Videos">Videos</lable><br>
+         <input type="checkbox" name="City Meetups" id="City Meetups" value="Option"/>     
+         <lable for="City Meetups">City Meetups</lable><br>
+         <input type="checkbox" name="Wiki" id="Wiki" value="Option"/>     
+         <lable for="Wiki">Wiki</lable><br>
+         <input type="checkbox" name="Forum" id="Forum" value="Option"/>     
+         <lable for="Forum">Forum</lable><br>
+         <input type="checkbox" name="Additional Courses" id="Additional Courses" value="Option"/>     
+         <lable for="Additional Courses">Additional Courses</lable><br>
+         
+         <p for= "comment"> Any comments or suggestions? </P>
+      <textarea id="comment" rows="4" cols="50">Enter your comment here...</textarea><br><br>
+      <button type="submit" id="submit"> Submit </button>
+      
+  </form>
+    </div>
+  </div>
+</div>
+</div>
+</html>

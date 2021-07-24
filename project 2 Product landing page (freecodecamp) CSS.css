@@ -1,0 +1,140 @@
+.main{
+    max-width:100%;
+    padding-left:20px;
+    padding-right:20px;
+    margin: 0 auto;
+    color:#011a20;
+     background-color:#b3d5dd;
+     }
+    #header-img{
+        width:300px;
+      position: absolute;
+            margin-bottom: 5px;
+            margin-left: 10px;
+      background-color:#00a3a3;
+      padding-top:3px;
+      
+    }
+    @media only screen and (max-width: 600px) {
+      .main{
+        background-color: #d6d2d8;
+      }
+    }
+    .nav-link{
+      text-decoration: none;
+      color:#011a20;
+        padding: 10px 80px ;
+     display: flex;
+  
+    }
+    .nav-link:hover{
+     background-color: #fdfdfd;
+     border: 1px solid #011a20;
+  
+        }
+    #nav-bar{
+      display:flex;
+      flex-direction: row-reverse;
+      overflow: auto;
+       background-color: #00a3a3;
+     
+    }
+    .formh1{
+      text-align: center;
+      padding:20px;
+    }
+    .email{
+      border-radius:5px;
+      border: 1px soild #011a20;
+      padding: 4px 60px;
+      
+    }
+    #features{
+      padding-top: 50px;
+    }
+    .place-align{
+      margin-left: -135px;
+    }
+    .submit{
+      padding: 4px 20px;
+      background-color: #00a3a3;
+      border: 2px solid #011a20;
+      border-radius: 5px;
+    }
+    .submit:hover{
+      background-color: #fdfdfd;
+      border: 1px solid #011a20;
+   
+         }
+    #featuremain{
+      text-align:left;
+      width:100%;
+      display:flex;
+      line-height:20px;
+      justify-content: center;
+    }
+    #place{
+      padding-left:100px;
+    }
+    
+    .placenew{
+      padding-left: -10px;
+    }
+    #HowitWorks{
+    display: flex;
+      padding-bottom:50px;
+      padding-top:50px;
+      justify-content: center;
+    }
+    #video{
+     border-radius: 20px;
+      width:600px;
+    }
+    #pricingnew{
+      flex-wrap: wrap;
+      display: flex;
+    }
+    #Pricing{
+      width: 60%;
+      display:flex;
+      justify-content: space-evenly;
+      margin: auto;
+      
+    }
+    
+    #card1{
+      border: 1px solid black;
+      border-radius: 3px;
+      text-align: left;
+      padding:10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 5px 6px #02171d91;
+     
+  
+    }
+    #submit{
+      background-color: #00a3a3;
+      border: 2px solid #011a20;
+      padding: 4px 30px;
+      background-color: #00a3a3;
+      border-radius: 5px;
+    }
+    h4{
+       background-color: #00a3a3;
+      padding-top: 10px;
+      margin-top: -10px;
+      margin-right: -10px;
+      margin-left: -10px;
+    }
+    .footermain1 {
+      list-style: none;
+  color:#011a20;
+    }
+    #footer{
+     text-align: center;
+    }
+    .footermain2{
+      margin-top:0px;
+    }
+    
